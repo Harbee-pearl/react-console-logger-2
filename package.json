@@ -1,0 +1,31 @@
+{
+  "name": "react-console-logger-2",
+  "version": "2.1.1",
+  "description": "A react package for logging to the console.",
+  "type": "module",
+  "source": "src/index.ts",
+  "types": "types/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "prepublishOnly": "npm run build",
+    "dev": "microbundle watch"
+  },
+  "keywords": [
+    "react",
+    "console",
+    "logger"
+  ],
+  "author": "harbee-pearl",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.15.1",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harbee-pearl/react-console-logger-2.git"
+  }
+}
